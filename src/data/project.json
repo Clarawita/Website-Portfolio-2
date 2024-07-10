@@ -1,0 +1,51 @@
+[
+  {
+    "image": "ytclone.png",
+    "name": "Youtube Clone",
+    "lang": ["HTML", "CSS"],
+    "desc": "Through this project, I have achieved proficiency in understanding and implementing the Grid Layout concept in web design. Implementing media queries has had a significant impact on the project's responsiveness.",
+    "source": "https://github.com/Clarawita/YT-homepage-clone"
+  },
+  {
+    "image": "minipro.png",
+    "name": "Mini Project Website TPM",
+    "lang": ["HTML", "CSS", "JavaScript"],
+    "desc": "Here is my work in developing an interactive website project using HTML, CSS, and JavaScript. This project encompasses the creation of a Contact Us validation form and ensuring data accuracy and completeness before submission.",
+    "source": "https://github.com/Clarawita/TPM_MiniProject"
+  },
+  {
+    "image": "finalpro.png",
+    "name": "Final Project Website TPM",
+    "lang": ["HTML", "CSS", "JavaScript"],
+    "desc": "The final project for a hackathon-themed website involves creating an online platform specifically designed to organize and manage hackathons efficiently. This website will allow users to register and form teams.",
+    "source": "https://github.com/Clarawita/Hackathon-Webpage"
+  },
+  {
+    "image": "oldport.png",
+    "name": "Portfolio Website (Old)",
+    "lang": ["HTML", "CSS", "JavaScript"],
+    "desc": "A project that reflects my early journey in web development. Built using HTML, CSS, and JavaScript, this site showcases my foundational skills in creating interactive web pages.",
+    "source": "https://github.com/Clarawita/Website-Portfolio"
+  },
+  {
+    "image": "vkellogg.png",
+    "name": "VKelloggs",
+    "lang": ["HTML", "CSS", "JavaScript"],
+    "desc": "This project showcases my skills in recreating a professional, user-friendly interface while maintaining the original brand's aesthetic and functionality. By focusing on responsive design, interactive features, and modern web standards.",
+    "source": "https://github.com/Clarawita/VKelloggs"
+  },
+  {
+    "image": "trackbites.png",
+    "name": "Track Bites",
+    "lang": ["Dart", "Flutter", "Firebase"],
+    "desc": "Discover the mobile application that propelled my team to the Top 10 finals of the FindIT! UGM Hackathon. This innovative app, built using Dart, Flutter, and Firebase, focuses on addressing eating disorders with a strong emphasis on mental health support. ",
+    "source": "https://github.com/Clarawita/FindIT--Hackathon-EliteNewbies"
+  },
+  {
+    "image": "realai.svg",
+    "name": "Real AI",
+    "lang": ["React", "CSS"],
+    "desc": "Explore our award-winning web application that enhances contact agent efficiency using AI, which won First Place at the Technoscape BNCC hackathon. As an Frontend Developer, i designed the user interface with React and CSS, creating an intuitive experience that empowers agents with AI-driven assistance.",
+    "source": "https://github.com/Clarawita/Technoscape"
+  }
+]

@@ -1,0 +1,131 @@
+@import "../../vars.css";
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 0 40px 0 100px;
+  overflow: hidden;
+  /* height: 100vh; */
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  width: 50%;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 700;
+  /* color: var(--color-text); */
+  background: linear-gradient(90deg, white 85%, black 120%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  z-index: 1;
+}
+
+.desc{
+  font-size: 1.4rem;
+  text-align: justify;
+  color: var(--color-text);
+  font-family: var(--font-robot);
+  z-index: 1;
+}
+
+.contactBtn{
+  background-color: var(--color-primary);
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  color: var(--color-text);
+  transition: all 0.25s;
+  box-shadow: 0 0 4px 0 rgba(46, 46, 46, 0.452);
+  z-index: 1;
+}
+
+.contactBtn:hover{
+  color: var(--color-secondary);
+  background-color: var(--color-text);
+}
+
+.contactBtn:active{
+  opacity: 0.7;
+}
+
+.heroImg{
+  width: 50%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  z-index: 1;
+}
+
+@keyframes floating{
+  0%{
+    transform: translate(0, -10px);
+  }
+  50%{
+    transform: translate(0, 10px);
+  }
+  100%{
+    transform: translate(0, -10px);
+  }
+}
+
+.topBlurry{
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-height: 350px;
+  background-color: rgba(255, 192, 203, 0.14);
+  top: -127px;
+  left: -10vw;
+  border: 764px;
+  filter: blur(100px);
+  z-index: 0;
+  border-radius: 100px;
+}
+
+.bottomBlurry{
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-height: 250px;
+  background-color: rgba(255, 192, 203, 0.14);
+  top: 250px;
+  right: -10vw;
+  border: 764px;
+  filter: blur(100px);
+  z-index: 0;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 830px) {
+  .container{
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin: 0 20px;
+  }
+
+  .content{
+    width: 90%;
+    align-items: center;
+  }
+
+  .heroImg{
+    width: 70%;
+  }
+  .desc{
+    font-size: 1.1rem;
+  }
+  
+}

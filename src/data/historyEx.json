@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Frontend Developer & Business Analyst",
+    "company": "Hackathon Technoscape BNCC",
+    "date": "June 2024",
+    "list": [
+      "Implemented the user interface using React and CSS.",
+      "Developed a business model and value proposition for the application."
+    ],
+    "image": "logo-white.svg"
+  },
+  {
+    "role": "Mobile App Developer",
+    "company": "Hackathon FindIT! UGM",
+    "date": "Feb 2024 - May 2024",
+    "list": [
+      "Led the development of a mobile application using Dart and the Flutter framework.",
+      "Integrated Firebase for backend application support."
+    ],
+    "image": "LOGO FINDIT.webp"
+  },
+  {
+    "role": "Frontend Developer",
+    "company": "Technology Project Member (TPM)",
+    "date": "Dec 2023 - Feb 2024",
+    "list": [
+      "Develop responsive and user-friendly web interfaces using HTML, CSS and Javascript.",
+      "Worked closely with UI/UX designers to translate design mockups into front end components."
+    ],
+    "image": "BNCC_T.png"
+  }
+]

@@ -1,0 +1,130 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 80%;
+  margin: 0 auto;
+  /* margin-top: 5vw; */
+  padding-top: 10vw;
+  gap: 50px;
+}
+
+.title{
+  font-size: 2rem;
+  color: var(--color-text);
+  letter-spacing: 2px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  align-items: start;
+  width: 100%;
+}
+
+.leftC{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.skillItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 100px;
+}
+
+.imageSkill{
+  background-color: var(--color-primary);
+  padding: 30px;
+  border-radius: 50px;
+  width: 125px;
+  height: 90%;
+}
+
+.skillItem h4{
+  color: var(--color-text);
+  font-size: 1.2rem;
+}
+
+.rightC{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  /* width: 60%; */
+}
+
+.historyItem{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(90deg, rgba(95, 57, 57, 0.873) 20%,  var(--color-bg) 100%);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.imglogo{
+  width: 90px;
+  height: 12%;
+}
+
+.contentHist{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+  color: var(--color-text);
+}
+
+.contentHist h4{
+  font-size: 1.5rem;
+}
+
+.contentHist h6, .contentHist span{
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: var(--font-robot);
+}
+
+.list{
+  list-style: inside;
+}
+
+@media screen and (max-width: 1100px) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    /* gap: 1rem; */
+    align-items: center;
+    padding-top: 10vw;
+  }
+
+  .content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .leftC{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .imglogo{
+    width: 60px;
+  }
+  
+}
+
+@media screen and (min-width: 600px) and (max-width: 1100px){
+  .leftC{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

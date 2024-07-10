@@ -1,0 +1,104 @@
+@import "../../vars.css";
+
+.con{
+  padding-top: 15vh
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 85%;
+  margin: 0 auto;
+  /* margin-top: 60px; */
+  
+  /* gap: 10px; */
+  padding: 60px 50px 40px 50px;
+  border-radius: 20px;
+  background-color: var(--color-dark);
+  z-index: 1;
+  /* height: 100vh; */
+}
+
+.title{
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--color-text);
+  letter-spacing: 2px;  
+  /* font-family: var(--font-robot); */
+}
+
+.container div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero{
+  width: 45%;
+}
+
+.skillSect{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  list-style: none;
+  gap: 1.7rem;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(95, 57, 57, 0.873) 20%,  var(--color-dark) 100%);
+  background-size: 0 100%;
+  width: 95%;
+  gap: 10px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: var(--color-text);
+  transition: 0.4s;
+  background-repeat: no-repeat;
+}
+
+.list:hover{
+  background-size: 100% 100%;
+}
+
+.list h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.list p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 830px) {
+  .container{
+    width: 90%;
+    margin: 0 auto;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .hero{
+    display: none;
+  }
+
+  .list{
+    padding: 10px 0px;
+    width: 100%;
+  }
+
+  .list img{
+    width: 20%;
+    height: 20%;
+  }
+  
+}

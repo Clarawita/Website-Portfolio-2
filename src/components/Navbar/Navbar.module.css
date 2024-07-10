@@ -1,0 +1,104 @@
+@import "../../vars.css";
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  z-index: 2;
+  transition: all 0.2s;
+}
+
+.scrolled{
+  background-color: var(--color-dark);
+}
+
+.title {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.menu {
+  display: flex;
+}
+
+.menu img{
+  display: none;
+}
+
+.menuItems {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.menuItems a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.menuItems a::after {
+  content: "";
+  position: absolute;
+  bottom: -0.3em;
+  height: 0.1em;
+  width: 100%;
+  left: 0;
+  background-color: var(--color-text);
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+}
+
+.menuItems a:active {
+  opacity: 0.8;
+}
+
+.menuItems a:hover::after {
+  transform: scaleX(1);
+}
+
+@media screen and (max-width: 830px) {
+
+  .menu {
+    position: relative;
+    right: 0;
+    /* top: 0; */
+    flex-direction: column;
+    align-items: end;
+    /* justify-content: center; */
+    z-index: 3;
+    /* margin-right: 10%; */
+    gap: 11px;
+  }
+
+  .menu img {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    display: none;
+    top: 60px;
+    right: 0;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(165, 109, 125, 0.771);
+    background: linear-gradient(30deg);
+    border-radius: 10px;
+    padding: 24px 30px;
+    box-shadow: 0 0 4px 0 rgba(46, 46, 46, 0.452);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

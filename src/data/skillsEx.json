@@ -1,0 +1,34 @@
+[
+  {
+    "title": "HTML",
+    "image": "image 5.png"
+  },
+  {
+    "title": "CSS",
+    "image": "image 6.png"
+  },
+  {
+    "title": "React",
+    "image": "image 7.png"
+  },
+  {
+    "title": "C / C++",
+    "image": "c.png"
+  },
+  {
+    "title": "Python",
+    "image": "python.png"
+  },
+  {
+    "title": "Dart",
+    "image": "dart.png"
+  },
+  {
+    "title": "Flutter",
+    "image": "flutter.png"
+  },
+  {
+    "title": "Figma",
+    "image": "image 11.png"
+  }
+]
